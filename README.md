@@ -21,9 +21,11 @@ You can simply run the scraper with the following code:
 python scraper.py
 ```
 ![how to use 1](./images/how-to-use-1.jpg)
+  
 When you run the scraper, a Tkinter window like the one above will appear.
 1. Enter YouTube URL: Input the URL of the YouTube video in the desingated field.
 2. Enter Count: Specify the number of comments you want to scrape. If you enter a number greater than the available comments, the scraper will collect all possible comments and then complete the process. It is recommended to enter the number of comments displayed on the YouTube site (since not all commnents may be accessible, the scraper will typically extract as many as possible in such cases).
 3. Click the Scrape Button: The scraping process will begin, proceeding as shown below.
+   
 ![how to use 2](./images/how-to-use-2.jpg)
 ![how to use 3](./images/how-to-use-3.jpg)
