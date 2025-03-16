@@ -1,1 +1,1 @@
-youtube_comment_downloader
+youtube-comment-downloader
