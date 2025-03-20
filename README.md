@@ -8,12 +8,19 @@ pip install -r requirements.txt
 ```
 
 # Corpus
-The corpus provided in the corpus folder consists of comments from the 1st, 2nd, and 4th most trending videos on Korean Youtube as of March 16, 2025, at 16:23 KST. The videos are as follows:
+The corpus provided in the corpus folder consists of comments from the top 10 most trending videos in game category on Korean Youtube as of March 20, 2025, at 16:00 KST. The videos are as follows:
 | Video ID | txt File | Number of comments | Video |
 |:-------:|:-------:|:-------:|:-------:|
-| Dz77zxY3NJE | youtube-comments-Dz77zxY3NJE.txt | 1289 | [정원 딸린 '제니 사무실' 세계 최초 공개한 홍진경 (제니 엄마 전화연결)](https://www.youtube.com/watch?v=Dz77zxY3NJE) |
-| 6YPrbka9YoA | youtube-comments-6YPrbka9YoA.txt | 1995 | [글로벌 진출은 핑계고ㅣEP.72](https://www.youtube.com/watch?v=6YPrbka9YoA) |
-| Svj1pTrGHZM | youtube-comments-Svj1pTrGHZM.txt | 1257 | [[#미스터트롯3] 어린 시절 나의 세상이었던 할머니에게.. 결승전 김용빈의 인생곡 '감사'♬ #TVCHOSUNMUSIC (TV CHOSUN 250313 방송)](https://www.youtube.com/watch?v=Svj1pTrGHZM) |
+| NWbrdLM4sH8 | youtube-comments-NWbrdLM4sH8.txt | 264 | [사람 미치게 하는 게임](https://www.youtube.com/watch?v=NWbrdLM4sH8) |
+| B4jVN291muc | youtube-comments-B4jVN291muc.txt | 266 | [왜 항상 강타가 없어요?ㅋㅋㅋ 이팀은 상호만 미워해ㅋㅋㅋ](https://www.youtube.com/watch?v=B4jVN291muc) |
+| 8O7cF6el9TQ | youtube-comments-8O7cF6el9TQ.txt | 213 | [혼을 담은 구라](https://www.youtube.com/watch?v=8O7cF6el9TQ) |
+| 4PJSXk0Dyrw | youtube-comments-4PJSXk0Dyrw.txt | 401 | [귀여운 리썰컴퍼니](https://www.youtube.com/watch?v=4PJSXk0Dyrw) |
+| Kww20gXf75s | youtube-comments-Kww20gXf75s.txt | 208 | [반바스텐이랑 다 조지러 갈게요 ^^ 첫 인상은..?!](https://www.youtube.com/watch?v=Kww20gXf75s) |
+| 3abg06YflyM | youtube-comments-3abg06YflyM.txt | 181 | [칸 계속 솔킬내는 멸망전의 김민교ㅋㅋㅋㅋ](https://www.youtube.com/watch?v=3abg06YflyM) |
+| UN9kBoL1tik | youtube-comments-UN9kBoL1tik.txt | 529 | [고장난 놀이기구 점검 중에... 무언가 움직였다?](https://www.youtube.com/watch?v=UN9kBoL1tik) |
+| 1iom8CdJvQ8 | youtube-comments-1iom8CdJvQ8&.txt | 746 | [드디어 배틀그라운드 언리얼5 영상공개..!! 소름 돋았습니다 솔직히 이 정도일 줄은 ㄷㄷ..](https://www.youtube.com/watch?v=1iom8CdJvQ8) |
+| AzZbVF6vlMU | youtube-comments-AzZbVF6vlMU.txt | 174 | [계왕권 쓴거 아닙니다;;](https://www.youtube.com/watch?v=AzZbVF6vlMU) |
+| Lj0-AOJfeUw | youtube-comments-Lj0-AOJfeUw.txt | 71 | [ 초밥에 들어가기도전에 역대급 레전드 상황 발생 ㅋㅋㅋㅋㅋ](https://www.youtube.com/watch?v=Lj0-AOJfeUw) |
 
 # How to use
 You can simply run the scraper with the following code:
