@@ -11,12 +11,12 @@ def scrape_youtube_comments(url, count, progress, result_label):
     comments = []
 
     for i, comment in enumerate(downloader.get_comments_from_url(youtube_url=video_url, sort_by=0)):
-        comments.append(comment["text"])
+        comments.append(f"<SOS> {comment['text'].replace('\n', ' <LF> ')} <EOS>")
 
         progress["value"] = (i + 1) / count * 100
         root.update_idletasks()
 
-        if len(comments) >= count:
+        if i+1 >= count:
             break
 
     result_label["text"] = f"{len(comments)} comments scraped!"
@@ -26,8 +26,7 @@ def scrape_youtube_comments(url, count, progress, result_label):
 def save_comments_to_txt(comments, video_id):
     filename = f"youtube-comments-{video_id}.txt"
     with open(filename, "w", encoding="utf-8") as f:
-        for i, comment in enumerate(comments, 1):
-            f.write(f"{i}. {comment}\n")
+        f.write("\n".join(comments))
 
 def on_button_click(entry, entry_result, result_label, progress):
     url = entry.get()
