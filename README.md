@@ -1,4 +1,4 @@
-# NLP Individual Project
+# IR Individual Project
 This repository is for the Natural Language Processing and Information Retrieval cource, providing a Youtube comments corpus and a scraper for collecting them.
 
 # Requirements
